@@ -1,0 +1,6 @@
+Tema:	Estructuras repetitivas (Bucles)
+
+Ejercicios
+	1- Programa que imprima los números del 1 al 100.
+	2- Programa que imprima las tablas de multiplicar 2-9.
+	3- Programa que imprima los números impares entre el 1 y el 1000.

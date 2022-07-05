@@ -1,0 +1,9 @@
+Temas:	Estructuras de datos.
+	Arrays simples y multidimensionales.
+	Declaración, uso, búsqueda y ordenación.
+
+Ejercicio
+	- Crear un arreglo de 20 posiciones.
+	- Llenar el arreglo con valores aleatorios.
+	- Organizar de manera ascendente con el método de ordenación burbuja.
+	- imprimir el arreglo antes y después de ordenado.
