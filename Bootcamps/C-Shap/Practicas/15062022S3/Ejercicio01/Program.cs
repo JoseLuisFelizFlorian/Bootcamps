@@ -1,4 +1,4 @@
-﻿#region Ejercicio 02
+﻿#region Ejercicio 01
 ///<summary>
 /// Autor: Feliz Florian Jose Luis
 /// Fecha: 11/06/2022
@@ -20,4 +20,4 @@ for (int i= 2; i<=9; i++)
     
 }
 
-#endregion Ejercicio 02
+#endregion Ejercicio 01

@@ -1,4 +1,4 @@
-﻿#region Ejercicio 03
+﻿#region Ejercicio 01
 ///<summary>
 /// Autor: Feliz Florian Jose Luis
 /// Fecha: 11/06/2022
@@ -13,5 +13,5 @@ for (int i = 1; i <= 1000; i++)
         Console.WriteLine(i);
 
 
-#endregion Ejercicio 03
+#endregion Ejercicio 01
 
