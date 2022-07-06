@@ -1,0 +1,15 @@
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\bin\Debug\net6.0\Ejercicio01.exe
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\bin\Debug\net6.0\Ejercicio01.deps.json
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\bin\Debug\net6.0\Ejercicio01.runtimeconfig.json
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\bin\Debug\net6.0\Ejercicio01.dll
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\bin\Debug\net6.0\Ejercicio01.pdb
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\obj\Debug\net6.0\Ejercicio01.csproj.AssemblyReference.cache
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\obj\Debug\net6.0\Ejercicio01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\obj\Debug\net6.0\Ejercicio01.AssemblyInfoInputs.cache
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\obj\Debug\net6.0\Ejercicio01.AssemblyInfo.cs
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\obj\Debug\net6.0\Ejercicio01.csproj.CoreCompileInputs.cache
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\obj\Debug\net6.0\Ejercicio01.dll
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\obj\Debug\net6.0\refint\Ejercicio01.dll
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\obj\Debug\net6.0\Ejercicio01.pdb
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\obj\Debug\net6.0\Ejercicio01.genruntimeconfig.cache
+C:\Users\sys.mgr\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\22062022S4\Ejercicio01\obj\Debug\net6.0\ref\Ejercicio01.dll
