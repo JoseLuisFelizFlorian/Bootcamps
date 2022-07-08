@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sys.mgr\\Documents\\GitHub\\Bootcamps\\Bootcamps\\C-Shap\\Practicas\\22062022S4\\Ejercicio01\\Ejercicio01.csproj": {}
+    "C:\\Users\\Soporte03\\Documents\\GitHub\\Bootcamps\\Bootcamps\\C-Shap\\Practicas\\22062022S4\\Ejercicio01\\Ejercicio01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sys.mgr\\Documents\\GitHub\\Bootcamps\\Bootcamps\\C-Shap\\Practicas\\22062022S4\\Ejercicio01\\Ejercicio01.csproj": {
+    "C:\\Users\\Soporte03\\Documents\\GitHub\\Bootcamps\\Bootcamps\\C-Shap\\Practicas\\22062022S4\\Ejercicio01\\Ejercicio01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sys.mgr\\Documents\\GitHub\\Bootcamps\\Bootcamps\\C-Shap\\Practicas\\22062022S4\\Ejercicio01\\Ejercicio01.csproj",
+        "projectUniqueName": "C:\\Users\\Soporte03\\Documents\\GitHub\\Bootcamps\\Bootcamps\\C-Shap\\Practicas\\22062022S4\\Ejercicio01\\Ejercicio01.csproj",
         "projectName": "Ejercicio01",
-        "projectPath": "C:\\Users\\sys.mgr\\Documents\\GitHub\\Bootcamps\\Bootcamps\\C-Shap\\Practicas\\22062022S4\\Ejercicio01\\Ejercicio01.csproj",
-        "packagesPath": "C:\\Users\\sys.mgr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sys.mgr\\Documents\\GitHub\\Bootcamps\\Bootcamps\\C-Shap\\Practicas\\22062022S4\\Ejercicio01\\obj\\",
+        "projectPath": "C:\\Users\\Soporte03\\Documents\\GitHub\\Bootcamps\\Bootcamps\\C-Shap\\Practicas\\22062022S4\\Ejercicio01\\Ejercicio01.csproj",
+        "packagesPath": "C:\\Users\\Soporte03\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Soporte03\\Documents\\GitHub\\Bootcamps\\Bootcamps\\C-Shap\\Practicas\\22062022S4\\Ejercicio01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sys.mgr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Soporte03\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
