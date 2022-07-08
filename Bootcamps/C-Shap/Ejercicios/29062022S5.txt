@@ -3,10 +3,10 @@ Temas:	Estructuras de datos
 
 Ejercicio
 	-Programa que pida al usuario 6 valores entre 1-40.
- 	-Luego que genere de forma aleatoria 6 números entre el 1-40.
-	-Debe asegurarse de que no se repitan estos números.
-	-Los 6 números deben almacenarse en un array.
-	-Estos seran los números ganadores.
-	-Al final debe mostrar los 6 números introducidos por el usuario y
-	-Moatrar los 6 números ganadores.
+ 	-Luego que genere de forma aleatoria 6 numeros entre el 1-40.
+	-Debe asegurarse de que no se repitan estos numeros.
+	-Los 6 numeros deben almacenarse en un array.
+	-Estos seran los numeros ganadores.
+	-Al final debe mostrar los 6 numeros introducidos por el usuario y
+	-Moatrar los 6 numeros ganadores.
 	-Debe imprimir si el usuario es ganador o se fue pelao!
