@@ -1,0 +1,15 @@
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\bin\Debug\net6.0\29062022S5.exe
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\bin\Debug\net6.0\29062022S5.deps.json
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\bin\Debug\net6.0\29062022S5.runtimeconfig.json
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\bin\Debug\net6.0\29062022S5.dll
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\bin\Debug\net6.0\29062022S5.pdb
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\obj\Debug\net6.0\29062022S5.csproj.AssemblyReference.cache
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\obj\Debug\net6.0\29062022S5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\obj\Debug\net6.0\29062022S5.AssemblyInfoInputs.cache
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\obj\Debug\net6.0\29062022S5.AssemblyInfo.cs
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\obj\Debug\net6.0\29062022S5.csproj.CoreCompileInputs.cache
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\obj\Debug\net6.0\29062022S5.dll
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\obj\Debug\net6.0\refint\29062022S5.dll
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\obj\Debug\net6.0\29062022S5.pdb
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\obj\Debug\net6.0\29062022S5.genruntimeconfig.cache
+C:\Users\Soporte03\Documents\GitHub\Bootcamps\Bootcamps\C-Shap\Practicas\29062022S5\Ejercicio01\obj\Debug\net6.0\ref\29062022S5.dll
