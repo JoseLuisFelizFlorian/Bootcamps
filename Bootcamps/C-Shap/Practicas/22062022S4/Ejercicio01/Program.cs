@@ -20,7 +20,7 @@ int [] intArray = new int[intPosiciones];
 voidInicializarArreglo(intArray);
 
 Console.WriteLine("\nPresione las siguientes teclas para ordenar: \n[A] Ascendente \n[D] Descendente");
-string stringTipoOrdenamiento = Console.ReadLine();
+string stringTipoOrdenamiento = Console.Read().ToString();
 
 //Ordena el arreglo de forma ascendente o desendente
 //segun el tipo de ordenamiento ingresedo por el usuario
