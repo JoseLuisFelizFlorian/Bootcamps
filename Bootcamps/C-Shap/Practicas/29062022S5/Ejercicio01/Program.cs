@@ -22,63 +22,75 @@ int[] intArrayValoresLoterias = new int[6];
 
 Console.WriteLine("LOTERIA NACIONAL DE LA REPUBLICA DOMINICANA\n");
 
-while (intCantidadNumeros != 6)
-{
+while (intCantidadNumeros != 6){
     if (boolFunctionValidarValor(intValoresUsuarios))
     {
         Console.Write("Ingrese el digito {0}: ", intCantidadNumeros);
         int.TryParse(Console.ReadLine(), out intValoresUsuarios);
-        if (!boolFunctionValidarNumeroRepetido(intValoresUsuarios, intArrayValoresUsuarios))
-        {
+        if (!boolFunctionValidarNumeroRepetido(intValoresUsuarios, intArrayValoresUsuarios)){
             intCantidadNumeros++;
             intArrayValoresUsuarios[intCantidadNumeros - 1] = intValoresUsuarios;           
         }
-        else
-        {
+        else{
             voidCapturaDatos("El numero ya fue ingresado.",intCantidadNumeros);
             int.TryParse(Console.ReadLine(), out intValoresUsuarios);
         }
     }
-    else
-    {
+    else{
         voidCapturaDatos("Favor de ingresar un valor entre el 1-40",intCantidadNumeros);
         int.TryParse(Console.ReadLine(), out intValoresUsuarios);
     }
 }
 
-voidInicializarArreglo(intArrayValoresLoterias);
+//Genera los numeros de la loterias
+voidGenerarNumeroLoteria(intArrayValoresLoterias);
 
-Console.Write("Numero Jugados: ");
+//Imprime los numeros jugados
+Console.Write("Numeros Jugados: ");
 voidImprimirValores(intArrayValoresUsuarios);
 
+//Imprime los numeros de la loterias
 Console.Write("Numeros ganadores: ");
 voidImprimirValores(intArrayValoresLoterias);
 
+//Verifica si el ticket es ganodor o perdedor
 voidVerificarGanador(intArrayValoresUsuarios,intArrayValoresLoterias);
 
+Console.ReadKey();
+Console.Clear();
+
+#region Captura de datos del usuario
+/// <summary>
+/// Captura los introducido por el usuario
+/// </summary>
+/// <param name="paramStringTexto">Texto gerico tipo string</param>
+/// <param name="paramIntCantidadNumeros">Cantidad de digito</param>
 void voidCapturaDatos(string paramStringTexto,int paramIntCantidadNumeros)
 {
         Console.WriteLine(paramStringTexto);
         Console.Write("Ingrese el digito {0}: ", paramIntCantidadNumeros);
-        //int.TryParse(Console.ReadLine(), out paramIntValoresUsuarios);
 }
+#endregion Captura de datos del usuario 
 
-void voidVerificarGanador(int[] paramIntArrayJugada, int[] paramIntArrayLoto)
+#region  Validacion de numeros entre el 1 y 40
+/// <summary>
+/// Valida los valores comprendido entre 1 y 40 introducido por el usuario.
+/// </summary>
+/// <param name="paramIntValor">Recive el valor de validacion</param>
+/// <returns>Valor tipo bool</returns>
+bool boolFunctionValidarValor(int paramIntValor)
 {
-    int intNumeroAcertados = 0;
-    for (int i = 0; i < paramIntArrayLoto.Length; i++)
-        if(paramIntArrayLoto[i] == paramIntArrayJugada[i])
-            intNumeroAcertados += 1;
-    if(intNumeroAcertados == 6)
-    {
-        Console.WriteLine("TICKER GANADOR");
-    }
-    else
-    {
-        Console.WriteLine($"TICKET PELAO!. Solo obtuviste {intNumeroAcertados}.");
-    }
+    return (paramIntValor >= 1 && paramIntValor <= 40) ? true : false;
 }
+#endregion Validacion de numeros entre el 1 y 40
 
+#region Comprueba si un valor esta repetido en un array
+/// <summary>
+/// Valida los numeros duplicado de un arreglo
+/// </summary>
+/// <param name="paramIntValor">Valor a verificar tipo intenger</param>
+/// <param name="paramIntArray">Lista de valor a comprobar tipo arreglo</param>
+/// <returns>Valor encontro o no encontrado tipo bool</returns>
 bool boolFunctionValidarNumeroRepetido(int paramIntValor, int[] paramIntArray)
 {
     bool boolEcontrado = false;
@@ -87,11 +99,7 @@ bool boolFunctionValidarNumeroRepetido(int paramIntValor, int[] paramIntArray)
             boolEcontrado = true;
     return (boolEcontrado) ? true : false;
 }
-
-bool boolFunctionValidarValor(int paramIntValor)
-{
-    return (paramIntValor >= 1 && paramIntValor <= 40) ? true : false;
-}
+#endregion Comprueba si un valor esta repetido en un array
 
 #region Genera numeros aleatorios
 /// <summary>
@@ -107,13 +115,13 @@ int intFuctionNumerosAleatores()
 
 #endregion Genera numeros aleatorios
 
-#region Inicializar Array
+#region Genera los numeros de la loteria
 /// <summary>
 /// Inicializa un array con numeros aleatoreos del 1 al 100
 /// </summary>
 /// <param name="paramArray">Array de tipo intenger</param>
 /// <returns>Objeto tipo array<returns>
-void voidInicializarArreglo(int[] paramArray)
+void voidGenerarNumeroLoteria(int[] paramArray)
 {
     for (int i = 0; i < paramArray.Length; i++)
         if (!boolFunctionValidarNumeroRepetido(intFuctionNumerosAleatores(), paramArray)){
@@ -123,9 +131,9 @@ void voidInicializarArreglo(int[] paramArray)
             paramArray[i] = intFuctionNumerosAleatores() + 1;
         }    
 }
-#endregion Inicializar Array
+#endregion Genera los numeros de la loteria
 
-#region Imprime los valores ordenado
+#region Imprime los valores ordenado de un array
 /// <summary>
 /// Imprime los valores almecenado en un arreglo de tipo intenger
 /// </summary>
@@ -139,6 +147,29 @@ void voidImprimirValores(int[] paramArray)
     }
     Console.WriteLine();
 }
-#endregion Imprime los valores ordenado
+#endregion Imprime los valores ordenado de un array
+
+#region Verifica si existe un ticket ganador o pelao!
+/// <summary>
+/// Verificacion de los numeros ganadores
+/// </summary>
+/// <param name="paramIntArrayJugada">Valores jugados del usuario tipo array</param>
+/// <param name="paramIntArrayLoto">Valores generados de la loteria tipo array</param>
+void voidVerificarGanador(int[] paramIntArrayJugada, int[] paramIntArrayLoto)
+{
+    int intNumeroAcertados = 0;
+    for (int i = 0; i < paramIntArrayLoto.Length; i++)
+        if(paramIntArrayLoto[i] == paramIntArrayJugada[i])
+            intNumeroAcertados += 1;
+    if(intNumeroAcertados == 6)
+    {
+        Console.WriteLine("TICKER GANADOR");
+    }
+    else
+    {
+        Console.WriteLine($"TICKET PELAO!. Solo obtuviste {intNumeroAcertados}.");
+    }
+}
+#endregion Verifica si existe un ticket ganador o pelao!
 
 #endregion Ejercicio 01
