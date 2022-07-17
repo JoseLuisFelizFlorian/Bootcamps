@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02072022S5 Registros de notas de estudiantes</title>
+    <link rel="stylesheet" href="./css/vendor/normalize.css">
+    <link rel="stylesheet" href="./css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js"></script>
+</head>
+
+<body class="cuerpo">
+    <div class="container">
+        <form class="formulario">
+            <h2>Estudiantes</h2>
+            <p>Registros de calificaciones de los alumnos</p>
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" name="nombre" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" name="apellido" class="form-control" placeholder="Apellido">
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <input type="text" name="matricula" class="form-control" placeholder="Matricula">
+            </div>
+            <div class="mb-3">
+                <input type="text" name="calificacion" class="form-control" placeholder="Calificacion">
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <button type="submit" name="guardar" class="btn btn-primary" >Guardar</button>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" name="limpiar" class="btn btn-primary" >Limpiar</button>
+                </div>
+
+                <div>
+                    <table class="table">
+                        <head>
+                            <tr>
+                                <th name="numero" scope="col">#</th>
+                                <th name="nombre" scope="col">Nombre</th>
+                                <th name="apellido" scope="col">Apellido</th>
+                                <th name="matricula" scope="col">Matricula</th>
+                                <th name="calificaciones" scope="col">Calificaciones</th>
+                            </tr>
+                        </head>
+                        <body>
+                            <tbody>
+                                <th scope="row">1</th>
+                                <td>Jose Luis</td>
+                                <td>Feliz Florian</td>
+                                <td>12-EISN-01-2022</td>
+                                <td>80</td>
+                            </tbody>
+                        </body>
+                    </table>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

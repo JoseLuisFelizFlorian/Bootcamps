@@ -1,0 +1,16 @@
+Temas: 
+    -Programación Orientada a Objeto (POO)
+    -Propiedades métodos y clases
+    -Notación JSON
+    -Document Object Model (DOM)
+    -Introducción y selectores
+    -DOM. Consulta y manipulación
+
+Ejercicio:
+    -Registros de notas de estudiantes
+    -Formulario: nombre, apellido, matricula, notas
+    -Boton guardar
+    -Crear una clase estudiantes para almacenar los valores y representar los registros
+    -Mostrar los datos de los estudiantes en una tablas
+    -Debajo de la tabla mostrar el promedio de los estudiantes
+    -Debe crear una funcion de flecha para calcular el primedio de las notas

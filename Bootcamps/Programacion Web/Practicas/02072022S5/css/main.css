@@ -1,0 +1,21 @@
+.cuerpo{
+    padding-top: 2%;
+    background: #EEEEEE;
+}
+
+.formulario{
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.formulario h2{
+    text-align: left;
+}
+
+.table{
+    padding-top: 15px;
+}
+
